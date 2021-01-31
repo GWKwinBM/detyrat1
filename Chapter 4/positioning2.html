@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!-- Fig. 4.10: postioning2.html -->
+<!-- Relative positioning of elements.-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Realative Positioning</title>
+	<style type="text/css">
+		p {
+			font-size: 1.3em;
+			font-family: verdana, arial, sans-serif;
+		}
+		span {
+			color: red;
+			font-size: .6em;
+		}
+		.super {
+			position: relative;
+			top: -1ex;
+		}
+		.sub {
+			position: relative;
+			bottom: -1ex;
+		}
+		.shiftleft {
+			position: relative;
+			left: -1ex;
+		}
+		.shiftright {
+			position: relative;
+			right: -1ex;
+		}
+	</style>
+</head>
+	<body>
+		<p>The text at the end of this sentence <span class="super"> is in superscript</span></p>
+
+		<p>The text at the end of this sentence <span class="sub"> is in superscript</span></p>
+
+		<p>The text at the end of this sentence <span class="shiftleft"> is  shifted leftt</span></p>
+
+		<p>The text at the end of this sentence <span class="shiftright" >is shifted right</span></p>
+		<button>
+			<a href="chapter4.html">Get Back</a>
+			</button>
+	</body>
+</html>
